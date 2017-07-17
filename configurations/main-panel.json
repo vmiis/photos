@@ -1,0 +1,48 @@
+{
+	"name":"Photos",
+	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"parameters":{
+		"predefined_item_tid":"20005380"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":
+				[
+					{
+						"name" : "Photos",
+						"modules" :
+						[
+							{
+							   "module_id" : "m01",
+							   "name" : "Upload Photos",
+							   "table_id" : "20008367",
+							   "url" : "/modules/upload_photo.html"
+							},
+							{
+							   "module_id" : "m02",
+							   "name" : "Search and Display Photos",
+							   "table_id" : "20008367",
+							   "url" : "/modules/search_and_display.html"
+							}
+						]
+					},
+					{
+						"name" : "Classification",
+						"modules" :
+						[
+							{
+							   "module_id" : "category",
+							   "name" : "Category",
+							   "table_id" : "20008370",
+							   "url" : "/modules/category.html"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
